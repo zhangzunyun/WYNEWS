@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B25041A579FDDF3E9E3BD82 /* libPods-张尊云day14网易新闻Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3720510FEB24F376F58F1D5 /* libPods-张尊云day14网易新闻Tests.a */; };
+		85FC96DF4E3337193AF920A6 /* libPods-张尊云day14网易新闻.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 934BA63EEC7E1F995D24DEBC /* libPods-张尊云day14网易新闻.a */; };
 		EE0FBBDF1D11669D00339214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0FBBDE1D11669D00339214 /* main.m */; };
 		EE0FBBE21D11669D00339214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0FBBE11D11669D00339214 /* AppDelegate.m */; };
 		EE0FBBE51D11669D00339214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0FBBE41D11669D00339214 /* ViewController.m */; };
@@ -27,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41B47C5C7C02D2B028E924AC /* Pods-张尊云day14网易新闻.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-张尊云day14网易新闻.release.xcconfig"; path = "Pods/Target Support Files/Pods-张尊云day14网易新闻/Pods-张尊云day14网易新闻.release.xcconfig"; sourceTree = "<group>"; };
+		934BA63EEC7E1F995D24DEBC /* libPods-张尊云day14网易新闻.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-张尊云day14网易新闻.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7EF0238BCCAFFDDA744E09 /* Pods-张尊云day14网易新闻Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-张尊云day14网易新闻Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-张尊云day14网易新闻Tests/Pods-张尊云day14网易新闻Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B3720510FEB24F376F58F1D5 /* libPods-张尊云day14网易新闻Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-张尊云day14网易新闻Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0639B490C17BBF8709CE6B9 /* Pods-张尊云day14网易新闻.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-张尊云day14网易新闻.debug.xcconfig"; path = "Pods/Target Support Files/Pods-张尊云day14网易新闻/Pods-张尊云day14网易新闻.debug.xcconfig"; sourceTree = "<group>"; };
 		EE0FBBDA1D11669D00339214 /* 张尊云day14网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "张尊云day14网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0FBBDE1D11669D00339214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE0FBBE01D11669D00339214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +47,7 @@
 		EE0FBBF31D11669D00339214 /* 张尊云day14网易新闻Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "张尊云day14网易新闻Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0FBBF71D11669D00339214 /* ___day14____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___day14____Tests.m"; sourceTree = "<group>"; };
 		EE0FBBF91D11669D00339214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF91044DB1C8143BAFA3C4E7 /* Pods-张尊云day14网易新闻Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-张尊云day14网易新闻Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-张尊云day14网易新闻Tests/Pods-张尊云day14网易新闻Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FC96DF4E3337193AF920A6 /* libPods-张尊云day14网易新闻.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B25041A579FDDF3E9E3BD82 /* libPods-张尊云day14网易新闻Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		968F2404240CE66794A830BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				934BA63EEC7E1F995D24DEBC /* libPods-张尊云day14网易新闻.a */,
+				B3720510FEB24F376F58F1D5 /* libPods-张尊云day14网易新闻Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5843857D7FF01A52172E95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0639B490C17BBF8709CE6B9 /* Pods-张尊云day14网易新闻.debug.xcconfig */,
+				41B47C5C7C02D2B028E924AC /* Pods-张尊云day14网易新闻.release.xcconfig */,
+				FF91044DB1C8143BAFA3C4E7 /* Pods-张尊云day14网易新闻Tests.debug.xcconfig */,
+				AF7EF0238BCCAFFDDA744E09 /* Pods-张尊云day14网易新闻Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE0FBBD11D11669D00339214 = {
 			isa = PBXGroup;
 			children = (
 				EE0FBBDC1D11669D00339214 /* 张尊云day14网易新闻 */,
 				EE0FBBF61D11669D00339214 /* 张尊云day14网易新闻Tests */,
 				EE0FBBDB1D11669D00339214 /* Products */,
+				CB5843857D7FF01A52172E95 /* Pods */,
+				968F2404240CE66794A830BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE0FBBFC1D11669D00339214 /* Build configuration list for PBXNativeTarget "张尊云day14网易新闻" */;
 			buildPhases = (
+				3907140D6212BCE1F13DEFF3 /* [CP] Check Pods Manifest.lock */,
 				EE0FBBD61D11669D00339214 /* Sources */,
 				EE0FBBD71D11669D00339214 /* Frameworks */,
 				EE0FBBD81D11669D00339214 /* Resources */,
+				6DAEDB68EC9D501AB9BD67F8 /* [CP] Embed Pods Frameworks */,
+				6509DF069F5A5EB8CE8CA474 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE0FBBFF1D11669D00339214 /* Build configuration list for PBXNativeTarget "张尊云day14网易新闻Tests" */;
 			buildPhases = (
+				CC2FA30B6F0E6BDBB0B3D387 /* [CP] Check Pods Manifest.lock */,
 				EE0FBBEF1D11669D00339214 /* Sources */,
 				EE0FBBF01D11669D00339214 /* Frameworks */,
 				EE0FBBF11D11669D00339214 /* Resources */,
+				D0D33885592B738AED654D24 /* [CP] Embed Pods Frameworks */,
+				EFBE85069DE36BF1A19E9641 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +243,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3907140D6212BCE1F13DEFF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6509DF069F5A5EB8CE8CA474 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-张尊云day14网易新闻/Pods-张尊云day14网易新闻-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAEDB68EC9D501AB9BD67F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-张尊云day14网易新闻/Pods-张尊云day14网易新闻-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC2FA30B6F0E6BDBB0B3D387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D33885592B738AED654D24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-张尊云day14网易新闻Tests/Pods-张尊云day14网易新闻Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFBE85069DE36BF1A19E9641 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-张尊云day14网易新闻Tests/Pods-张尊云day14网易新闻Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE0FBBD61D11669D00339214 /* Sources */ = {
@@ -339,6 +470,7 @@
 		};
 		EE0FBBFD1D11669D00339214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0639B490C17BBF8709CE6B9 /* Pods-张尊云day14网易新闻.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "张尊云day14网易新闻/Info.plist";
@@ -350,6 +482,7 @@
 		};
 		EE0FBBFE1D11669D00339214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B47C5C7C02D2B028E924AC /* Pods-张尊云day14网易新闻.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "张尊云day14网易新闻/Info.plist";
@@ -361,6 +494,7 @@
 		};
 		EE0FBC001D11669D00339214 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF91044DB1C8143BAFA3C4E7 /* Pods-张尊云day14网易新闻Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "张尊云day14网易新闻Tests/Info.plist";
@@ -373,6 +507,7 @@
 		};
 		EE0FBC011D11669D00339214 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7EF0238BCCAFFDDA744E09 /* Pods-张尊云day14网易新闻Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "张尊云day14网易新闻Tests/Info.plist";
@@ -402,6 +537,7 @@
 				EE0FBBFE1D11669D00339214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE0FBBFF1D11669D00339214 /* Build configuration list for PBXNativeTarget "张尊云day14网易新闻Tests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +546,7 @@
 				EE0FBC011D11669D00339214 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
